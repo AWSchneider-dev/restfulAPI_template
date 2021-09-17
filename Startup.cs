@@ -32,6 +32,7 @@ namespace restfulAPI_template
             services.AddDbContext<dbData>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<dbData>();
 

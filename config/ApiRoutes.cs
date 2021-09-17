@@ -14,6 +14,8 @@ namespace restfulAPI_template.config.V1
     public static class Products
     {
       public const string GetAll = Base + "/products";
+      public const string Get = Base + "/products/{Id}";
+      public const string Create = Base + "/create";
     }
   }
 }
