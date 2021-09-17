@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace restfulAPI_template.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class dbData : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public dbData(DbContextOptions<dbData> options)
             : base(options)
         {
         }
